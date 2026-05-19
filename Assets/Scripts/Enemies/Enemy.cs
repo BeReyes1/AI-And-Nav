@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour
 
     public Transform Target => target;
     public Transform[] Waypoints => waypoints;
+    public float ViewDistance => viewDistance;
+    public float ViewAngle => viewAngle;
     public int CurrentWaypoint { get; private set; }
     public bool PlayerInSight { get; private set; }
 
