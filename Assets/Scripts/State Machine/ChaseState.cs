@@ -18,9 +18,10 @@ public class ChaseState : IState
     {
         enemy.Agent.SetDestination(enemy.Target.position);
 
-        if (Vector3.Distance(enemy.transform.position, enemy.Target.position) < 0.5f)
+        if (Vector3.Distance(enemy.transform.position, enemy.Target.position) < 1.5f)
         {
-            Debug.Log("Player caught!");
+            Debug.Log("You lose");
+            ConditionManager.Instance.GameOver(false);
         }
     }
 
