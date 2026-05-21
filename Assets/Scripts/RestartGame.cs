@@ -5,6 +5,6 @@ public class RestartGame : MonoBehaviour
 {
     public void PlayAgain()
     {
-        SceneManager.LoadSceneAsync("StealthDemo");
+        SceneManager.LoadSceneAsync("mainscene");
     }
 }
