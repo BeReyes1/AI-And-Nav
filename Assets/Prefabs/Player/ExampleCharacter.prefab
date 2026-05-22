@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Motor: {fileID: 7657021636762833222}
-  MaxStableMoveSpeed: 10
+  MaxStableMoveSpeed: 6
   StableMovementSharpness: 15
   OrientationSharpness: 20
   OrientationMethod: 1
