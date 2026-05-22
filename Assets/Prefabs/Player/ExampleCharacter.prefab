@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 6390903539926185351}
   - component: {fileID: 7657021636762833222}
   - component: {fileID: 8663816230505592440}
+  - component: {fileID: 2113676015780234072}
   m_Layer: 9
   m_Name: ExampleCharacter
   m_TagString: Untagged
@@ -195,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Motor: {fileID: 7657021636762833222}
-  MaxStableMoveSpeed: 10
+  MaxStableMoveSpeed: 6
   StableMovementSharpness: 15
   OrientationSharpness: 20
   OrientationMethod: 1
@@ -285,6 +286,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2113676015780234072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022837191428739401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31073cf601d911242a0fecc6fb0b9683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
 --- !u!1 &2959226018438699906
 GameObject:
   m_ObjectHideFlags: 0
